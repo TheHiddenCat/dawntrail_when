@@ -13,7 +13,7 @@ intents = Intents.default()
 intents.message_content = True
 
 client = Client(intents=intents)
-release_date = datetime(2024, 7, 2, 23, 59, 59)
+release_date = datetime(2024, 6, 27, 23, 59, 59)
 pattern = re.compile("dawntrail\swhen\??")
 
 
